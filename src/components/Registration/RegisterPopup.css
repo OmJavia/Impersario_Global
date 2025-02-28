@@ -1,0 +1,101 @@
+.register-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-popup-container {
+    background: rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 15px rgb(0, 0, 0);
+}
+
+.register-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.register-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background: rgb(15, 15, 15);
+    color: white;
+    margin-bottom: 15px;
+}
+
+.input-icon-1 {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 16px;
+    
+}
+
+.register-button,
+.close-button-alt {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.register-text {
+    font-size: small;
+}
+.register-button {
+    background: #ec1380;
+    color: white;
+    border-radius: 25px;
+}
+.highlight {
+    color: #ec1380;
+}
+
+
+.close-button-alt {
+    background: red;
+    color: white;
+}
+
+.close-button-alt:hover {
+    background: darkred;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.input-container-1 {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container-1 input {
+    width: 100%; 
+    padding: 12px;
+    padding-right: 2px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background: rgb(15, 15, 15);
+    color: white;
+}
+
